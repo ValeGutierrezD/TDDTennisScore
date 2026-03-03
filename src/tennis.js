@@ -7,11 +7,12 @@ class Tennis {
         let player1Score = "Love";
         let player2Score = "Love";
 
-        if (this.player1Points == 4 && this.player2Points == 3) {
-            return "Advantage for Player 1";
-        }
-        if (this.player1Points == 3 && this.player2Points == 4) {
-            return "Advantage for Player 2";
+        // 3. Ventaja (Mejorado para cualquier punto después de 3)
+        if (this.player1Points >= 3 && this.player2Points >= 3) {
+            if (this.player1Points === this.player2Points + 1) 
+                return "Advantage for Player 1";
+            if (this.player2Points === this.player1Points + 1) 
+                return "Advantage for Player 2";
         }
         if (this.player1Points >= 4 && this.player1Points >= this.player2Points + 2) {
             return "Game for player 1";

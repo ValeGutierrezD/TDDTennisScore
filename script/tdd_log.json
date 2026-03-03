@@ -440,9 +440,23 @@
     "testId": 16
   },
   {
-    "commitId": "HEAD",
+    "commitId": "31c83b69390a2296be883a97a1494b2112d014d4",
     "commitName": "refactor:score",
     "commitTimestamp": 1772513469921,
     "testId": 16
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1772513664602,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:UI completo",
+    "commitTimestamp": 1772514081144,
+    "testId": 17
   }
 ]

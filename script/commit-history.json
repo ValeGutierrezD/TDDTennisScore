@@ -304,17 +304,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "31c83b69390a2296be883a97a1494b2112d014d4",
     "author": "Valeria Gutierrez",
     "commit": {
       "date": "2026-03-03T04:51:08.000Z",
       "message": "refactor:score",
-      "url": "https://github.com/ValeGutierrezD/TDDTennisScore/commit/HEAD"
+      "url": "https://github.com/ValeGutierrezD/TDDTennisScore/commit/31c83b69390a2296be883a97a1494b2112d014d4"
     },
     "stats": {
       "total": 81,
       "additions": 53,
       "deletions": 28,
+      "date": "2026-03-03"
+    },
+    "coverage": 100,
+    "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Valeria Gutierrez",
+    "commit": {
+      "date": "2026-03-03T05:01:19.000Z",
+      "message": "feat:UI completo",
+      "url": "https://github.com/ValeGutierrezD/TDDTennisScore/commit/HEAD"
+    },
+    "stats": {
+      "total": 40,
+      "additions": 13,
+      "deletions": 27,
       "date": "2026-03-03"
     },
     "coverage": 100,
