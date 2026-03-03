@@ -15,6 +15,9 @@ class Tennis {
         if (this.player1Points == 5 && this.player2Points == 3) {
             return "Game for player 1";
         }
+        if (this.player1Points == 3 && this.player2Points == 5) {
+            return "Game for player 2";
+        }
         if (this.player1Points == 1) {
             player1Score = "15";
         }

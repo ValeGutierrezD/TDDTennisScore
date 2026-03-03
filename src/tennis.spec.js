@@ -137,6 +137,22 @@ describe("Tennis Scorer", () => {
     let resultado =tennis.score() //Ejecutar metodo a probar  ->ACT
     expect(resultado).toEqual("Advantage for Player 2"); //Vericar    ->ASSERT
   });
+    
+  //Si el juego esta en Advantage del jugador 2 anota una vez mas => "Game For Player 2"
+  it("si el juego esta en Advantage del jugador 2 y anota una vez mas", () => {
+    let tennis = new Tennis();   //Inicializar  ->ARRANGE
+    tennis.player1Scores();      //inicializar
+    tennis.player1Scores();     //inicializar
+    tennis.player1Scores();      //inicializar
+    tennis.player2Scores();      //inicializar
+    tennis.player2Scores();
+    tennis.player2Scores();      //inicializar
+    tennis.player2Scores();
+    tennis.player2Scores();
+    let resultado =tennis.score() //Ejecutar metodo a probar  ->ACT
+    expect(resultado).toEqual("Game for player 2"); //Vericar    ->ASSERT
+  });
+
 
 
 });
