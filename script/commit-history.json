@@ -323,17 +323,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "10ca7b0fd6cb16c30597e41949038ccc4200bedc",
     "author": "Valeria Gutierrez",
     "commit": {
       "date": "2026-03-03T05:01:19.000Z",
       "message": "feat:UI completo",
-      "url": "https://github.com/ValeGutierrezD/TDDTennisScore/commit/HEAD"
+      "url": "https://github.com/ValeGutierrezD/TDDTennisScore/commit/10ca7b0fd6cb16c30597e41949038ccc4200bedc"
     },
     "stats": {
       "total": 40,
       "additions": 13,
       "deletions": 27,
+      "date": "2026-03-03"
+    },
+    "coverage": 100,
+    "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Valeria Gutierrez",
+    "commit": {
+      "date": "2026-03-03T05:16:25.000Z",
+      "message": "fix: archivo package-lock.json",
+      "url": "https://github.com/ValeGutierrezD/TDDTennisScore/commit/HEAD"
+    },
+    "stats": {
+      "total": 47149,
+      "additions": 5594,
+      "deletions": 41555,
       "date": "2026-03-03"
     },
     "coverage": 100,

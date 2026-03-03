@@ -454,9 +454,23 @@
     "testId": 17
   },
   {
-    "commitId": "HEAD",
+    "commitId": "10ca7b0fd6cb16c30597e41949038ccc4200bedc",
     "commitName": "feat:UI completo",
     "commitTimestamp": 1772514081144,
     "testId": 17
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1772514129374,
+    "success": true,
+    "testId": 18
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: archivo package-lock.json",
+    "commitTimestamp": 1772514986852,
+    "testId": 18
   }
 ]
