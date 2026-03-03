@@ -396,9 +396,39 @@
     "testId": 14
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9a58c0f7c12f422d58765a10008ecc751076861e",
     "commitName": "feat:caso el juego esta en deuce y jugador2 anota 2 veces",
     "commitTimestamp": 1772511926568,
     "testId": 14
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1772512472860,
+    "success": true,
+    "testId": 15
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 1,
+    "numTotalTests": 15,
+    "timestamp": 1772512507040,
+    "success": false,
+    "testId": 15
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1772512592832,
+    "success": true,
+    "testId": 15
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor:score",
+    "commitTimestamp": 1772512637745,
+    "testId": 15
   }
 ]
