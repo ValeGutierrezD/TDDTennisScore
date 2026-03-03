@@ -338,9 +338,23 @@
     "testId": 11
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8efe13c5dca9783e10c0499c5b2a0ab91c27829c",
     "commitName": "feat:caso el juego esta en deuce y jugador1 anota",
     "commitTimestamp": 1772511372598,
     "testId": 11
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1772511510736,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:caso el juego esta en deuce y jugador1 anota 2 veces",
+    "commitTimestamp": 1772511531673,
+    "testId": 12
   }
 ]
