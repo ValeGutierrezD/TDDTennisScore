@@ -10,6 +10,9 @@ class Tennis {
         if (this.player1Points == 2) {
             player1Score = "30";
         }
+         if (this.player1Points == 3) {
+            player1Score = "40";
+        }
         return player1Score + " - Love";
     }
 
