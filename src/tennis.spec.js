@@ -83,6 +83,19 @@ describe("Tennis Scorer", () => {
     expect(resultado).toEqual("Game for player 2"); //Vericar    ->ASSERT
   });
 
+  //Jugador 1 anota 3 veces jugador 2 anota 3 veces=> "Deuce"
+  it("jugador 1 anota 3 veces jugador 2 anota 3 veces", () => {
+    let tennis = new Tennis();   //Inicializar  ->ARRANGE
+    tennis.player1Scores();      //inicializar
+    tennis.player1Scores();      //inicializar
+    tennis.player1Scores();      //inicializar
+    tennis.player2Scores();      //inicializar
+    tennis.player2Scores();      //inicializar
+    tennis.player2Scores();      //inicializar
+    let resultado =tennis.score() //Ejecutar metodo a probar  ->ACT
+    expect(resultado).toEqual("Deuce"); //Vericar    ->ASSERT
+  });
+
 
 
 });
