@@ -9,6 +9,10 @@ class Tennis {
         }
         return player1Score + " - Love";
     }
+
+    player1Scores(){
+        this.player1Points++;
+    }
 }
 
 export default Tennis;

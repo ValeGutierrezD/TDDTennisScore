@@ -78,9 +78,31 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6a9dfd58520b72fa52285a5917e97e90709b8cc9",
     "commitName": "refactor:refactorizacion de score inicial love-love",
     "commitTimestamp": 1772508928195,
     "testId": 1
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1772509225175,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1772509465992,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:refactorizacion de score inicial love-love",
+    "commitTimestamp": 1772509540848,
+    "testId": 2
   }
 ]
