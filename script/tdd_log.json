@@ -144,9 +144,39 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8bfe873db16e8eeb7c14e57df05388bf273da9fb",
     "commitName": "feat:caso jugador1 anota 3 veces",
     "commitTimestamp": 1772509828741,
     "testId": 4
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1772509902416,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1772509938615,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1772509987444,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:caso jugador1 anota 4 veces",
+    "commitTimestamp": 1772510139744,
+    "testId": 5
   }
 ]

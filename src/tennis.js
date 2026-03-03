@@ -10,8 +10,11 @@ class Tennis {
         if (this.player1Points == 2) {
             player1Score = "30";
         }
-         if (this.player1Points == 3) {
+        if (this.player1Points == 3) {
             player1Score = "40";
+        }
+        if (this.player1Points == 4) {
+            return "Game for player 1";
         }
         return player1Score + " - Love";
     }
