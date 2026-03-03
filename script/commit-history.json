@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a2452e60975e71d9a3d4bf7e43d6d78c78eefedb",
     "author": "Valeria Gutierrez",
     "commit": {
       "date": "2026-03-03T03:45:39.000Z",
       "message": "feat:refactorizacion de score inicial love-love",
-      "url": "https://github.com/ValeGutierrezD/TDDTennisScore/commit/HEAD"
+      "url": "https://github.com/ValeGutierrezD/TDDTennisScore/commit/a2452e60975e71d9a3d4bf7e43d6d78c78eefedb"
     },
     "stats": {
       "total": 13,
@@ -53,6 +53,25 @@
     },
     "coverage": 100,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Valeria Gutierrez",
+    "commit": {
+      "date": "2026-03-03T03:48:22.000Z",
+      "message": "feat:caso jugador1 anota 2 veces",
+      "url": "https://github.com/ValeGutierrezD/TDDTennisScore/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 13,
+      "deletions": 0,
+      "date": "2026-03-03"
+    },
+    "coverage": 100,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }
