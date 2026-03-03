@@ -133,12 +133,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1198f0ea8485a3dfb6e23550a0a6e0db55bf6c74",
     "author": "Valeria Gutierrez",
     "commit": {
       "date": "2026-03-03T04:06:08.000Z",
       "message": "feat:caso jugador2 anota 2 veces jugador1 en 0",
-      "url": "https://github.com/ValeGutierrezD/TDDTennisScore/commit/HEAD"
+      "url": "https://github.com/ValeGutierrezD/TDDTennisScore/commit/1198f0ea8485a3dfb6e23550a0a6e0db55bf6c74"
     },
     "stats": {
       "total": 11,
@@ -148,6 +148,25 @@
     },
     "coverage": 100,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Valeria Gutierrez",
+    "commit": {
+      "date": "2026-03-03T04:07:24.000Z",
+      "message": "feat:caso jugador2 anota 3 veces jugador1 en 0",
+      "url": "https://github.com/ValeGutierrezD/TDDTennisScore/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 13,
+      "deletions": 0,
+      "date": "2026-03-03"
+    },
+    "coverage": 100,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }

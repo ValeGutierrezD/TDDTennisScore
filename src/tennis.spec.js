@@ -62,6 +62,16 @@ describe("Tennis Scorer", () => {
     expect(resultado).toEqual("Love - 30"); //Vericar    ->ASSERT
   });
 
+  //Jugador 2 anota 3 veces jugador 1 en 0 => "Love - 40"
+  it("jugador 2 anota 3 veces jugador uno en cero", () => {
+    let tennis = new Tennis();   //Inicializar  ->ARRANGE
+    tennis.player2Scores();      //inicializar
+    tennis.player2Scores();      //inicializar
+    tennis.player2Scores();      //inicializar
+    let resultado =tennis.score() //Ejecutar metodo a probar  ->ACT
+    expect(resultado).toEqual("Love - 40"); //Vericar    ->ASSERT
+  });
+
 
 
 });
