@@ -248,9 +248,31 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ee4e25cd83363de245cdfd9999332ae0e4e13a08",
     "commitName": "feat:caso jugador2 anota 3 veces jugador1 en 0",
     "commitTimestamp": 1772510846213,
     "testId": 8
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 1,
+    "numTotalTests": 10,
+    "timestamp": 1772510900801,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1772510926785,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:caso jugador2 anota 4 veces jugador1 en 0",
+    "commitTimestamp": 1772510951427,
+    "testId": 9
   }
 ]
