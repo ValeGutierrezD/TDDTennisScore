@@ -16,7 +16,7 @@ describe("Tennis Scorer", () => {
   });
 
   //Jugador 1 anota 2 veces jugador 2 en 0=> "30 - Love"
-  it("jugador 1 anota jugador dos en cero", () => {
+  it("jugador 1 anota 2 veces jugador dos en cero", () => {
     let tennis = new Tennis();   //Inicializar  ->ARRANGE
     tennis.player1Scores();      //inicializar
     tennis.player1Scores();      //inicializar
@@ -25,7 +25,7 @@ describe("Tennis Scorer", () => {
   });
 
   //Jugador 1 anota 3 veces jugador 2 en 0=> "40 - Love"
-  it("jugador 1 anota jugador dos en cero", () => {
+  it("jugador 1 anota 3 veces jugador dos en cero", () => {
     let tennis = new Tennis();   //Inicializar  ->ARRANGE
     tennis.player1Scores();      //inicializar
     tennis.player1Scores();      //inicializar
@@ -35,7 +35,7 @@ describe("Tennis Scorer", () => {
   });
 
   //Jugador 1 anota 4 veces jugador 2 en 0=> "40 - Love"
-  it("jugador 1 anota jugador dos en cero", () => {
+  it("jugador 1 anota 4 veces jugador dos en cero", () => {
     let tennis = new Tennis();   //Inicializar  ->ARRANGE
     tennis.player1Scores();      //inicializar
     tennis.player1Scores();      //inicializar
@@ -44,6 +44,15 @@ describe("Tennis Scorer", () => {
     let resultado =tennis.score() //Ejecutar metodo a probar  ->ACT
     expect(resultado).toEqual("Game for player 1"); //Vericar    ->ASSERT
   });
+
+  //Jugador 2 anota 1 vez jugador 1 en 0 => "Love - 15"
+  it("jugador 2 anota jugador uno en cero", () => {
+    let tennis = new Tennis();   //Inicializar  ->ARRANGE
+    tennis.player2Scores();      //inicializar
+    let resultado =tennis.score() //Ejecutar metodo a probar  ->ACT
+    expect(resultado).toEqual("Love - 15"); //Vericar    ->ASSERT
+  });
+
 
 
 
