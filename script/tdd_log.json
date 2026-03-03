@@ -292,9 +292,55 @@
     "testId": 10
   },
   {
-    "commitId": "HEAD",
+    "commitId": "870bff6fcc544fb9cbe952a8509e2ae034997c40",
     "commitName": "feat:caso jugador2 anota 3 veces jugador2 anota 3 veces -> douce",
     "commitTimestamp": 1772511078068,
     "testId": 10
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1772511173073,
+    "success": false,
+    "testId": 11
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1772511231710,
+    "success": false,
+    "testId": 11
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1772511274451,
+    "success": false,
+    "testId": 11
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1772511298703,
+    "success": false,
+    "testId": 11
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1772511322541,
+    "success": true,
+    "testId": 11
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:caso el juego esta en deuce y jugador1 anota",
+    "commitTimestamp": 1772511372598,
+    "testId": 11
   }
 ]

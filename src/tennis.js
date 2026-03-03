@@ -6,6 +6,9 @@ class Tennis {
     score() {
         let player1Score = "Love";
         let player2Score = "Love";
+        if (this.player1Points == 4 && this.player2Points == 3) {
+            return "Advantage for Player 1";
+        }
         if (this.player1Points == 1) {
             player1Score = "15";
         }
@@ -33,6 +36,7 @@ class Tennis {
         if (this.player1Points == 3 && this.player2Points == 3) {
             return "Deuce";
         }
+        
         return player1Score + " - " + player2Score;
     }
 
